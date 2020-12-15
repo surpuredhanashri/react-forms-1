@@ -1,0 +1,36 @@
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  row-gap: 20px;
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+
+
+.details-container {
+  background-color: white;
+  margin-top: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+
+.details-container h1 {
+  text-align: center;
+}
+
+.details p:nth-of-type(odd) {
+  color: #ff7171;
+  margin-left: 180px;
+}
+
+.details p:nth-of-type(even) {
+  color: #145374;
+  margin-left: 50px;
+}
+
+.prev {
+  margin-left: 280px;
+}

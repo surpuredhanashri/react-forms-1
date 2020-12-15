@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #592763;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 0;
+  margin-bottom: 100px;
+}
+
+.choose {
+  display: flex;
+  letter-spacing: 1px;
+}
+
+.choose p {
+  margin: 20px;
+  cursor: pointer;
+}
+
+label {
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  margin-top: 30px;
+  color: #000000;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+input,
+select {
+  padding: 7px;
+  width: 300px;
+  margin-top: 5px;
+}
+
+select {
+  width: 320px;
+}
+
+textarea {
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  margin: 20px;
+  background-color: #5F27CD;
+  padding: 10px 30px;
+  color: white;
+}
+
+.navLinks {
+  margin-top: 40px;
+}
+
+h1 {
+  color:#5F27CD;
+  letter-spacing: 2px;
+}
+
+.active {
+  border-bottom: 2px solid #f56a79;
+}
+
+.type {
+  padding: 10px 20px;
+}
+
+#local,
+#swift {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.error {
+  margin-top: 5px;
+  color: #639cd9;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
